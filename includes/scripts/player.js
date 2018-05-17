@@ -8,6 +8,7 @@ var manualSeek = false;
 var mp3 = canPlay('audio/mpeg') || canPlay('audio/mp3');
 var ogg = canPlay('audio/ogg') || canPlay('application/ogg');
 var wav = canPlay('audio/wav');
+var m4a = canPlay('audio/x-m4a');
 var $audio;
 var $handle;
 var $timer;
@@ -266,6 +267,11 @@ function readFiles(files) {
 				break;
 			case 'audio/wav':
 				if (wav)
+					loadSong(file);
+
+				break;
+			case 'audio/x-m4a':
+				if (m4a)
 					loadSong(file);
 
 				break;
