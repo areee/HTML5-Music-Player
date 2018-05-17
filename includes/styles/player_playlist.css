@@ -69,17 +69,39 @@ td .fileInput {
 	bottom: 4px;
 }
 
-#delete button {background: url('../images/d1.png') no-repeat;}
-#delete button:hover {background: url('../images/d2.png') no-repeat;}
-.delete button {background: url('../images/d3.png') no-repeat;}
-.delete button:hover {background: url('../images/d1.png') no-repeat;}
+#delete button {
+	background: url('../images/d1.png') no-repeat;
+}
 
-#play button {background: url('../images/p1.png') no-repeat;}
-.play button {background: url('../images/p1.png') no-repeat;}
-.play button:hover {background: url('../images/p2.png') no-repeat;}
-.playing .play button {background: url('../images/p2.png') no-repeat;}
+#delete button:hover {
+	background: url('../images/d2.png') no-repeat;
+}
 
-#check, #delete, #play, .check, .delete, .play{
+.delete button {
+	background: url('../images/d3.png') no-repeat;
+}
+
+.delete button:hover {
+	background: url('../images/d1.png') no-repeat;
+}
+
+#play button {
+	background: url('../images/p1.png') no-repeat;
+}
+
+.play button {
+	background: url('../images/p1.png') no-repeat;
+}
+
+.play button:hover {
+	background: url('../images/p2.png') no-repeat;
+}
+
+.playing .play button {
+	background: url('../images/p2.png') no-repeat;
+}
+
+#check, #delete, #play, .check, .delete, .play {
 	text-align: center;
 }
 
@@ -94,7 +116,7 @@ td .fileInput {
 	font-weight: 700;
 }
 
-.ui-state-highlight{
+.ui-state-highlight {
 	background: #7baed5;
 	height: 10pt;
 	line-height: 10pt;

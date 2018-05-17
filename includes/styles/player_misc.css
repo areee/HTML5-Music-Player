@@ -9,7 +9,9 @@ body {
 	overflow: hidden;
 }
 
-button, input {cursor: pointer;}
+button, input {
+	cursor: pointer;
+}
 
 h2 {
 	font-size: 180%;

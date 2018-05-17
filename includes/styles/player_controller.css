@@ -29,16 +29,41 @@
 	height: 46px;
 }
 
-#prev div {background: url('../images/back.png') no-repeat center center;}
-#rw div {background: url('../images/rw.png') no-repeat center center;}
-#playToggle div {background: url('../images/play.png') no-repeat center center;}
-#stop div {background: url('../images/stop.png') no-repeat center center;}
-#ff div {background: url('../images/ff.png') no-repeat center center;}
-#next div {background: url('../images/next.png') no-repeat center center;}
-#shuffle div {background: url('../images/shuffle.png') no-repeat center center;}
-#volume div {background: url('../images/sound.png') no-repeat center center;}
+#prev div {
+	background: url('../images/back.png') no-repeat center center;
+}
 
-#volume{z-index: 9001;}
+#rw div {
+	background: url('../images/rw.png') no-repeat center center;
+}
+
+#playToggle div {
+	background: url('../images/play.png') no-repeat center center;
+}
+
+#stop div {
+	background: url('../images/stop.png') no-repeat center center;
+}
+
+#ff div {
+	background: url('../images/ff.png') no-repeat center center;
+}
+
+#next div {
+	background: url('../images/next.png') no-repeat center center;
+}
+
+#shuffle div {
+	background: url('../images/shuffle.png') no-repeat center center;
+}
+
+#volume div {
+	background: url('../images/sound.png') no-repeat center center;
+}
+
+#volume {
+	z-index: 9001;
+}
 
 #volumeSlider {
 	background: #4d4b48;
@@ -72,7 +97,7 @@
 }
 
 #volumeSlider .ui-slider .ui-slider-handle {
-	background: rgb(188,229,251);
+	background: rgb(188, 229, 251);
 	border-radius: 6px;
 	-o-border-radius: 6px;
 	-moz-border-radius: 6px;
@@ -127,18 +152,53 @@
 	height: 10px;
 }
 
-.pause div {background: url('../images/pause.png') no-repeat center center !important;}
-.bprev div {background: url('../images/bback.png') no-repeat center center !important;}
-.brw div {background: url('../images/brw.png') no-repeat center center !important;}
-.bplay div {background: url('../images/bplay.png') no-repeat center center !important;}
-.bstop div {background: url('../images/bstop.png') no-repeat center center !important;}
-.bff div {background: url('../images/bff.png') no-repeat center center !important;}
-.bnext div {background: url('../images/bnext.png') no-repeat center center !important;}
-.bshuffle div {background: url('../images/bshuffle.png') no-repeat center center !important;}
-.bpause div {background: url('../images/bpause.png') no-repeat center center !important;}
-.bhandle {background: url('../images/bhandle.png') no-repeat center center !important;}
-.bslider {background: #7baed5 !important;}
-.btimer{color: #7baed5 !important;}
+.pause div {
+	background: url('../images/pause.png') no-repeat center center !important;
+}
+
+.bprev div {
+	background: url('../images/bback.png') no-repeat center center !important;
+}
+
+.brw div {
+	background: url('../images/brw.png') no-repeat center center !important;
+}
+
+.bplay div {
+	background: url('../images/bplay.png') no-repeat center center !important;
+}
+
+.bstop div {
+	background: url('../images/bstop.png') no-repeat center center !important;
+}
+
+.bff div {
+	background: url('../images/bff.png') no-repeat center center !important;
+}
+
+.bnext div {
+	background: url('../images/bnext.png') no-repeat center center !important;
+}
+
+.bshuffle div {
+	background: url('../images/bshuffle.png') no-repeat center center !important;
+}
+
+.bpause div {
+	background: url('../images/bpause.png') no-repeat center center !important;
+}
+
+.bhandle {
+	background: url('../images/bhandle.png') no-repeat center center !important;
+}
+
+.bslider {
+	background: #7baed5 !important;
+}
+
+.btimer {
+	color: #7baed5 !important;
+}
 
 .click {
 	border-top: 1px solid #171614;
